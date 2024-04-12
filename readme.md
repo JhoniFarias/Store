@@ -6,9 +6,9 @@ Utilizei o package **Flunt** para garantir que todas as entradas de dados sejam 
 
 ## 🔄 CQRS
 ### Comandos e Handlers
-- **Commands**: São os responsáveis por coletar os dados de entrada
 
-- **Handlers**: Aqui é onde a mágica acontece! Os handlers pegam os comandos e cuidam de todo o processamento, decidindo o que fazer e como manter tudo fluindo.
+- **Commands**: Usei para operações de escrita, facilitando a validação e execução de alterações no domínio.
+- **Handlers**: Responsáveis por processar commands e queries, conectando-se com todo o fluxo da aplicação.
 
 ## 🧪 Testes Unitários com MSTest
 Para garantir que tudo funcione perfeitamente, implementei testes unitários utilizando o MSTest. Isso nos ajuda a dormir tranquilos, sabendo que nosso código está sólido!
