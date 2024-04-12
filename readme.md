@@ -1,5 +1,5 @@
 
-Neste projeto, aprendi a desenvolvi códigos desacoplados e coesos, facilitando assim a implementação de testes unitarios
+Neste projeto, aprendi a desenvolver códigos desacoplados e coesos, facilitando assim a implementação de testes unitarios.
 
 ## 📋 Design by Contracts com Flunt
 Utilizei o package **Flunt** para garantir que todas as entradas de dados sejam válidas desde o começo (Fail Fast Validation).
