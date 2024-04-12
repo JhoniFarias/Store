@@ -1,13 +1,17 @@
 
-Implementado o conceito de design by contracts usando o package Flunt, para validar o input de dados
+Neste projeto, aprendi a desenvolvi códigos desacoplados e 
 
-Implementado CRQS de forma simplificada
+## 📋 Design by Contracts com Flunt
+Utilizei o package **Flunt** para garantir que todas as entradas de dados sejam válidas desde o começo (Fail Fast Validation).
 
-com comands e handles 
+## 🔄 CQRS
+### Comandos e Handlers
+- **Commands**: São os responsáveis por coletar os dados de entrada
 
-commands fica resposavel por fazer a ponte de entrada de dados, muito parecido com função dos DTos
+- **Handlers**: Aqui é onde a mágica acontece! Os handlers pegam os comandos e cuidam de todo o processamento, decidindo o que fazer e como manter tudo fluindo.
 
-inclusive nos commands foi implementa o conceito de FailFastValidation, que valida os dados na entrada, ou seja, se algo estiver errado a requisição já para neste ponto evitando assim um overhead no banco de dados.
+## 🧪 Testes Unitários com MSTest
+Para garantir que tudo funcione perfeitamente, implementei testes unitários utilizando o MSTest. Isso nos ajuda a dormir tranquilos, sabendo que nosso código está sólido!
 
-Handler basicamente faz o processamento dos commands, gerencia os fluxos da aplicação
+
 
